@@ -26,7 +26,16 @@ var multiply = function (num1,num2) {
     var num1= parseInt( prompt('enter first number'))
     var num2= parseInt( prompt('enter other number'))
 
-    alert('the multiplication is ' + multply(num1,num2))
-    
+    alert('the multiplication is ' + multiply(num1,num2))
+
 //division
-var mu
+var division = function(num1,num2) {
+    if (num2 === 0) {(alert('non-zero number cannot be divided by 0'))}
+    else {
+    return num1/num2
+    }
+}
+    var num1= parseInt( prompt('enter first number'))
+    var num2= parseInt( prompt('enter other number'))
+
+    alert('the division is ' +division(num1,num2))
